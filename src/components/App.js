@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
   
     render() {
       return (
-        <div>Hello World!<div/>
+        <div>Hello World!</div>
       );
     }
   };
