@@ -1,6 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-  
+
+import PropTypes from 'prop-types';
+
+const propTypes = {
+
+};
+const defaultProps = {
+
+};
+
   class App extends React.Component {
   
     render() {
@@ -9,4 +18,8 @@ import ReactDOM from 'react-dom';
       );
     }
   };
+
+App.propTypes = propTypes;
+App.defaultProps = defaultProps;
+
 export default App;
